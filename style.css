@@ -15,11 +15,11 @@ html {
 body {
     padding: 0;
     margin: 0;
-    background-image: url(./back.png);
+   /* background-image: url(./back.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
     align-content: center;
-    /*background-color: #222022;*/
+    background-color: #222022;
     
     
 }
@@ -234,35 +234,15 @@ h4 {
 }
 
 .images {
-
-    display: grid;
+    display: inline-grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     margin-top: 5%;
+    gap: 0;
     
 }
 
-.img-list{
-    margin-top: 5%;
-    
-    width: 40%;
-}
 
-.item1 {
-    grid-area: pic1;
-}
-
-.item2 {
-    grid-area: pic2;
-}
-
-.item3 {
-    grid-area: pic3;
-}
-
-.item4 {
-    grid-area: pic4;
-}
 
 
 /*************************** Form *****************************/
